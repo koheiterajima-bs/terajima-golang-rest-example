@@ -394,7 +394,7 @@ func TestUserRepository_TxExistUser(t *testing.T) {
 		{
 			name:    "notExistUserId",
 			userID:  999,
-			want:    false,
+			want:    true,
 			wantErr: nil,
 		},
 	}

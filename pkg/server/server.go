@@ -2,11 +2,12 @@ package server
 
 import (
 	"context"
+	"net"
+	"net/http"
+
 	"github.com/go-chi/chi/v5"
 	chiMiddlleware "github.com/go-chi/chi/v5/middleware"
 	"github.com/go-chi/cors"
-	"net"
-	"net/http"
 
 	"github.com/taaaaakahiro/golang-rest-example/pkg/config"
 	"github.com/taaaaakahiro/golang-rest-example/pkg/handler"
